@@ -4,14 +4,11 @@ function calculateStudentGrade(score) {
     return "F";
   } else if (score >= 60 && score <= 69) {
     return "D";
-  }
-  if (score >= 70 && score <= 79) {
+  } else if (score >= 70 && score <= 79) {
     return "C";
-  }
-  if (score >= 80 && score <= 89) {
+  } else if (score >= 80 && score <= 89) {
     return "B";
-  }
-  if (score >= 90 && score <= 100) {
+  } else if (score >= 90 && score <= 100) {
     return "A";
   } else {
     return "F";
